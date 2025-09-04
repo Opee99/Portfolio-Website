@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mubtasim Fuad Opee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar container">
+      <img src="img/logo.png" alt="Logo" class="logo" width="40" height="40" />
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-links"
+        aria-label="Open menu">☰</button>
+      <div id="nav-overlay" class="nav-overlay" aria-hidden="true"></div>
+      <ul id="nav-links" class="nav-links" role="menubar">
+        <li role="none"><a class="nav-link" href="#about" role="menuitem">About</a></li>
+        <li role="none"><a class="nav-link" href="#skills" role="menuitem">Skills</a></li>
+        <li role="none"><a class="nav-link" href="#viz" role="menuitem">Visualizations</a></li>
+        <li role="none"><a class="nav-link" href="#projects" role="menuitem">Projects</a></li>
+        <!-- <li role="none"><a class="nav-link" href="#experience" role="menuitem">Experience</a></li> -->
+        <li role="none"><a class="nav-link" href="#services" role="menuitem">Services</a></li>
+        <li role="none"><a class="nav-link" href="#certs" role="menuitem">Certifications</a></li>
+        <li role="none"><a class="nav-link" href="#testimonials" role="menuitem">Testimonials</a></li>
+        <li role="none"><a class="nav-link" href="#contact" role="menuitem">Contact</a></li>
+        <li role="none">
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle dark/light">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M21.64 13a1 1 0 0 0-1.05-.14A8 8 0 0 1 11.1 3.41a1 1 0 0 0-1.18-1.18A10 10 0 1 0 21.78 14a1 1 0 0 0-.14-1z" />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="home">
+    <!-- Hero -->
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="container hero-wrap">
+        <div class="hero-text">
+          <h1 id="hero-title" class="hero-title">
+            Hi, I’m <span id="typed-name" class="type" aria-label="Name typing animation">Mubtasim Fuad Opee</span>
+          </h1>
+          <p class="subtitle">Enthusiast in Machine Learning &amp; Artificial Intelligence.</p>
+          <div class="cta">
+            <a href="#contact" class="btn primary hover-lift">Hire Me</a>
+            <a href="Resume/Resume of OPEE.pdf" class="btn outline hover-lift" download>Download Resume</a>
+          </div>
+          <div class="socials" aria-label="Social links">
+            <!-- GitHub -->
+            <a class="social-link hover-lift" href="https://github.com/Opee99" target="_blank" rel="noreferrer"
+              aria-label="GitHub">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                aria-hidden="true">
+                <title>GitHub</title>
+                <path fill="#181717"
+                  d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.3 1.8 1.3 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.7.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3z" />
+              </svg>
+              <span>GitHub</span>
+            </a>
+            <!-- LinkedIn Professional Icon -->
+            <a class="social-link hover-lift" href="https://linkedin.com/in/mubtasimfuadopee" target="_blank"
+              rel="noreferrer" aria-label="LinkedIn">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                aria-hidden="true">
+                <title>LinkedIn</title>
+                <path fill="#0A66C2"
+                  d="M22.23 0H1.77C.79 0 0 .774 0 1.728v20.544C0 23.226.79 24 1.77 24h20.46C23.21 24 24 23.226 24 22.272V1.728C24 .774 23.21 0 22.23 0zM7.06 20.452H3.56V9h3.5v11.452zM5.31 7.433a2.03 2.03 0 1 1 0-4.06 2.03 2.03 0 0 1 0 4.06zM20.452 20.452h-3.5v-5.605c0-1.336-.024-3.057-1.864-3.057-1.864 0-2.15 1.454-2.15 2.957v5.705h-3.5V9h3.36v1.561h.048c.468-.885 1.608-1.817 3.312-1.817 3.54 0 4.188 2.329 4.188 5.357v6.891z" />
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <!-- Kaggle Professional Icon -->
+            <a class="social-link hover-lift" href="https://www.kaggle.com/mubtasimfuadopee" target="_blank"
+              rel="noreferrer" aria-label="Kaggle">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                aria-hidden="true">
+                <title>Kaggle</title>
+                <path fill="#20BEFF" d="M4 3h3v6l6-6h4l-7.5 7.5L17 21h-4l-6-8v8H4V3z" />
+              </svg>
+              <span>Kaggle</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="avatar hover-lift" aria-label="Profile">
+            <img id="profilePic" src="img/Mubtasim.png" alt="Mubtasim Fuad Opee" onerror="this.style.display='none'" />
+            <div class="avatar-fallback" aria-hidden="true" style="opacity:0;">MFO</div>
+          </div>
+          <ul class="highlights">
+            <li class="hover-lift">Artificial Intelligence</li>
+            <li class="hover-lift">Machine Learning</li>
+            <li class="hover-lift">Data Analysis</li>
+          </ul>
+        </div>
+      </div>
+
+      <a id="scrollDown" class="scroll-down" href="#about" data-target="#about" role="button" tabindex="0"
+        aria-label="Scroll to About">
+        <span class="mouse" aria-hidden="true"><span class="wheel"></span></span>
+        <span class="scroll-label">Scroll Down</span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container grid-2">
+        <div>
+          <h2 id="about-title">About Me</h2>
+          <p>
+            Results-driven CSE graduate with hands-on experience in Python, C/C++, machine learning, and data science.
+            Trained in data analysis with strong skills in Power BI and business intelligence. CCNA certified with solid
+            understanding of network security and infrastructure. Currently pursuing M.Sc. in CSE at Jahangirnagar
+            University.
+          </p>
+          <div class="edu">
+            <div class="edu-item hover-lift">
+              <h3>M.Sc. in CSE — Jahangirnagar University</h3>
+              <p>CGPA: 3.75 • May 2024 – Running</p>
+            </div>
+            <div class="edu-item hover-lift">
+              <h3>B.Sc. in CSE — Daffodil International University</h3>
+              <p>CGPA: 3.66 • Jan 2020 – Mar 2024</p>
+            </div>
+          </div>
+          <a href="#skills" class="btn inline hover-lift">Explore Skills →</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat hover-lift">
+            <span class="num" data-target="30">0</span><span class="suffix">+</span>
+            <span class="label">ML/DL Notebooks</span>
+          </div>
+          <div class="stat hover-lift">
+            <span class="num" data-target="10">0</span><span class="suffix">+</span>
+            <span class="label">Dashboards &amp; Apps</span>
+          </div>
+          <div class="stat hover-lift">
+            <span class="num" data-target="5">0</span><span class="suffix">+</span>
+            <span class="label">Years Coding</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Technical Skills Section ===== -->
+    <section id="skills" class="section skills-section" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title" class="section-title">Technical Skills</h2>
+
+        <!-- Filter Buttons (now scoped to skills only) -->
+        <div class="skills-filters" role="tablist" aria-label="Filter skills">
+          <button class="filter-btn active" data-skill-filter="all" role="tab" aria-selected="true">ALL</button>
+          <button class="filter-btn" data-skill-filter="ml" role="tab">ML &amp; Data Science</button>
+          <button class="filter-btn" data-skill-filter="analysis" role="tab">Data Analysis</button>
+          <button class="filter-btn" data-skill-filter="web" role="tab">Web Development</button>
+          <button class="filter-btn" data-skill-filter="network" role="tab">Networking</button>
+          <button class="filter-btn" data-skill-filter="database" role="tab">Database</button>
+          <button class="filter-btn" data-skill-filter="tools" role="tab">Tools</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid">
+          <div class="skill-card all programming" data-category="programming">
+            <h3>Programming Languages</h3>
+            <div class="icons">
+              <img src="img/python.png" alt="Python">
+              <img src="img/c.png" alt="C++">
+              <img src="img/cpp.png" alt="C">
+            </div>
+          </div>
+
+          <div class="skill-card ml all" data-category="ml">
+            <h3>Machine Learning &amp; Data Science</h3>
+            <div class="icons">
+              <!-- <img src="assets/icons/python.png" alt="Python"> -->
+              <img src="img/numpy.png" alt="NumPy">
+              <img src="img/pandas.png" alt="Pandas">
+              <img src="img/scikit-learn.png" alt="Scikit-learn">
+              <img src="img/tensorflow.png" alt="TensorFlow">
+              <img src="img/keras.png" alt="Keras">
+            </div>
+          </div>
+
+          <div class="skill-card analysis all" data-category="analysis">
+            <h3>Data Analysis &amp; BI</h3>
+            <div class="icons">
+              <img src="img/excel.png" alt="Excel">
+              <img src="img/bi.png" alt="Power BI">
+            </div>
+          </div>
+
+          <div class="skill-card network all" data-category="network">
+            <h3>Computer Networks</h3>
+            <div class="icons">
+              <img src="img/ccna.png" alt="CCNA">
+            </div>
+          </div>
+
+          <div class="skill-card database all" data-category="database">
+            <h3>Database Management</h3>
+            <div class="icons">
+              <img src="img/mysql.png" alt="MySQL">
+            </div>
+          </div>
+
+          <div class="skill-card web all" data-category="web">
+            <h3>Web Development</h3>
+            <div class="icons">
+              <img src="img/html.png" alt="HTML">
+              <img src="img/css.png" alt="CSS">
+              <img src="img/js.png" alt="JavaScript">
+              <img src="img/php.png" alt="PHP">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visualizations -->
+    <section id="viz" class="section" aria-labelledby="viz-title">
+      <div class="container">
+        <h2 id="viz-title">Interactive Visualizations</h2>
+        <div class="viz-grid">
+          <div class="chart-card hover-lift">
+            <h3>Skill Radar</h3>
+            <canvas id="skillsRadar" aria-label="Radar chart of skills"></canvas>
+          </div>
+          <div class="chart-card hover-lift">
+            <h3>Activity (Last 12 Months)</h3>
+            <canvas id="activityLine" aria-label="Line chart of monthly activity"></canvas>
+          </div>
+          <div class="chart-card hover-lift">
+            <h3>Projects by Category</h3>
+            <canvas id="projectsDonut" aria-label="Doughnut chart of project categories"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience (placeholder to match nav) 
+  <section id="experience" class="section" aria-labelledby="experience-title">
+    <div class="container">
+      <h2 id="experience-title">Experience</h2>
+      <p style="text-align:center;color:var(--muted)">Add your roles and achievements here.</p>
+    </div>
+  </section>
+  -->
+
+
+    <!-- Projects -->
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="header-row">
+          <h2 id="projects-title">Projects</h2>
+          <div class="filters">
+            <button class="chip small active hover-lift" data-filter="all">All</button>
+            <button class="chip small hover-lift" data-filter="ml">ML</button>
+            <button class="chip small hover-lift" data-filter="dl">DL</button>
+            <button class="chip small hover-lift" data-filter="bi">BI</button>
+            <button class="chip small hover-lift" data-filter="web">Web</button>
+            <button class="chip small hover-lift" data-filter="net">Networks</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Example project card -->
+          <article class="project-card hover-lift" data-category="ml">
+            <img class="cover placeholder" alt="placeholder" src="img/smart-crop.png">
+            <div class="content">
+              <h3>Smart Crop Recommendation System using ML and ANN Models</h3>
+              <p>ML-based yield prediction and decision support.</p>
+              <div class="tags"><span>Python</span><span>Machine Learning</span><span>Deep Learning</span></div>
+            </div>
+          </article>
+
+          <article class="project-card hover-lift" data-category="bi">
+            <img class="cover placeholder" alt="Power BI Dashboard" src="img/AdventureWorks.png">
+            <div class="content">
+              <h3>AdventureWorks Sales Analysis Dashboard</h3>
+              <p>Interactive Power BI dashboard for sales performance & forecasting.</p>
+              <div class="tags"><span>Power BI</span><span>Excel</span></div>
+            </div>
+          </article>
+
+          <article class="project-card hover-lift" data-category="web">
+            <img class="cover placeholder" alt="Power BI Dashboard" src="img/cashopia.png">
+            <div class="content">
+              <h3>Cashopia - Personal Finance Web App</h3>
+              <p>Responsive app to track income, expenses, budgets with light/dark mode, localization, and Chart
+                visualizations.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            </div>
+          </article>
+
+          <article class="project-card hover-lift" data-category="dl">
+            <img class="cover placeholder" alt="CNN Classifier"
+              src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'%3E%3Crect width='100%25' height='100%25' fill='%2311161f'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%237c8da6' font-family='Inter,Arial' font-size='42'%3ECNN Classifier%3C/text%3E%3C/svg%3E">
+            <div class="content">
+              <h3>ImageSense</h3>
+              <p>Convolutional Neural Network for small-image classification.</p>
+              <div class="tags"><span>DL</span><span>TensorFlow</span></div>
+            </div>
+          </article>
+
+          <article class="project-card hover-lift" data-category="web">
+            <img class="cover placeholder" alt="Portfolio Website"
+              src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'%3E%3Crect width='100%25' height='100%25' fill='%2311161f'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%237c8da6' font-family='Inter,Arial' font-size='42'%3EPortfolio 2025%3C/text%3E%3C/svg%3E">
+            <div class="content">
+              <h3>Portfolio 2025</h3>
+              <p>Responsive personal site with theme-aware charts and accessibility.</p>
+              <div class="tags"><span>Web</span><span>HTML</span><span>JS</span></div>
+            </div>
+          </article>
+
+          <article class="project-card hover-lift" data-category="net">
+            <img class="cover placeholder" alt="Network Monitor"
+              src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'%3E%3Crect width='100%25' height='100%25' fill='%2311161f'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%237c8da6' font-family='Inter,Arial' font-size='42'%3ENet Monitor%3C/text%3E%3C/svg%3E">
+            <div class="content">
+              <h3>Net Monitor</h3>
+              <p>LAN topology visualizer with basic SNMP polling and alerts.</p>
+              <div class="tags"><span>Networks</span><span>SNMP</span></div>
+            </div>
+          </article>
+          <!-- id used to prevent duplicate injection -->
+          <div id="extra-projects-marker" hidden></div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section" aria-labelledby="services-title">
+      <div class="container">
+        <h2 id="services-title">Services</h2>
+        <div class="services-grid">
+          <div class="service-card hover-lift">
+            <h3>ML Model Development</h3>
+            <p>End-to-end ML pipelines: data prep, training, evaluation & deployment.</p>
+            <div class="tags"><span>Python</span><span>scikit-learn</span><span>TensorFlow</span></div>
+          </div>
+          <div class="service-card hover-lift">
+            <h3>Data Analysis &amp; BI</h3>
+            <p>Decision-ready dashboards and insights with clean storytelling.</p>
+            <div class="tags"><span>Power BI</span><span>DAX</span><span>Excel</span></div>
+          </div>
+          <div class="service-card hover-lift">
+            <h3>Web Apps &amp; APIs</h3>
+            <p>Ship your models and ideas with fast, secure web apps & APIs.</p>
+            <div class="tags"><span>HTML/CSS/JS</span><span>Flask</span></div>
+          </div>
+          <div class="service-card hover-lift">
+            <h3>Networking &amp; Security</h3>
+            <p>Small-office network setup, hardening, and troubleshooting.</p>
+            <div class="tags"><span>CCNA</span><span>Routing</span><span>Switching</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Certifications -->
+    <section id="certs" class="section" aria-labelledby="certs-title">
+      <div class="container">
+        <h2 id="certs-title">Certifications</h2>
+        <ul class="timeline">
+          <li>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="tl-card">
+              <h3>Power BI – Data Analyst (Associate)</h3>
+              <p>Status: <strong>In progress</strong> • Add when completed</p>
+              <ul class="bullets">
+                <li>DAX, data modeling, report design</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="tl-card">
+              <h3>Machine Learning with Python</h3>
+              <p>Issued: 6th November 2024 • <em>Credential ID:</em> <span class="muted">Add your ID</span></p>
+              <ul class="bullets">
+                <li>Machine Learning</li>
+                <li>Python</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="tl-card">
+              <h3>National Skill Standard Basic (360 Hrs)</h3>
+              <p>Issued: 2024 • <em>Credential ID:</em> <span class="muted">Add your ID</span></p>
+              <ul class="bullets">
+                <li>Routing &amp; switching fundamentals</li>
+                <li>Network security and troubleshooting</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="tl-card">
+              <h3>Graphic Design Certification</h3>
+              <p>Status: <strong>In progress</strong> • Add when completed</p>
+              <ul class="bullets">
+                <li>DAX, data modeling, report design</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <span class="dot" aria-hidden="true"></span>
+            <div class="tl-card">
+              <h3>English & Business Communication</h3>
+              <p>Status: <strong>In progress</strong> • Add when completed</p>
+              <ul class="bullets">
+                <li>DAX, data modeling, report design</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- Testimonials (placeholder to match nav) -->
+    <section id="testimonials" class="section" aria-labelledby="testi-title">
+      <div class="container">
+        <h2 id="testi-title">Testimonials</h2>
+        <div class="testimonials-grid">
+          <div class="quote-card hover-lift">
+            “Working with Mubtasim was smooth and effective.”
+            <footer>— Client Name</footer>
+          </div>
+          <div class="quote-card hover-lift">
+            “Great communication and solid technical execution.”
+            <footer>— Teammate</footer>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container grid-2">
+        <div>
+          <h2 id="contact-title">Contact</h2>
+          <ul class="contact-list">
+            <li class="hover-lift"><strong>GitHub:</strong> <a href="https://github.com/Opee99" target="_blank"
+                rel="noreferrer">Opee99</a></li>
+            <li class="hover-lift"><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/mubtasimfuadopee"
+                target="_blank" rel="noreferrer">/in/mubtasimfuadopee</a></li>
+            <li class="hover-lift"><strong>Address:</strong> 176/A/1, Shyamoli, Dhaka-1207</li>
+          </ul>
+        </div>
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+            <small class="error">Name is required</small>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+            <small class="error">Provide a valid email</small>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message." required></textarea>
+            <small class="error">Message is required</small>
+          </div>
+          <button type="submit" class="btn primary full hover-lift">Send Message</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Mubtasim Fuad Opee. All rights reserved.</p>
+      <div class="socials">
+        <a class="hover-lift" href="https://github.com/Opee99" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="hover-lift" href="https://linkedin.com/in/mubtasimfuadopee" target="_blank"
+          rel="noreferrer">LinkedIn</a>
+        <a class="hover-lift" href="https://mfopee.netlify.app/" target="_blank" rel="noreferrer">Website</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top"><b>↑</bb></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
