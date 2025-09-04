@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portfolio of Mubtasim Fuad Opee — Data Science, Machine Learning, Data Analysis, Networking, and Web Development."/>
+  <title>Mubtasim Fuad Opee — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23000000' d='M8 8h32v6H8zM8 22h20v6H8zM8 36h32v6H8z'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="#home" class="brand">MFO<span>•</span>Portfolio</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certs">Certifications</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle dark/light">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <path d="M21.64 13a1 1 0 0 0-1.05-.14A8 8 0 0 1 11.1 3.41a1 1 0 0 0-1.18-1.18A10 10 0 1 0 21.78 14a1 1 0 0 0-.14-1z"/>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="container hero-wrap">
+        <div class="hero-text">
+          <h1>Hi, I’m <span class="accent">Mubtasim Fuad Opee</span></h1>
+          <p class="subtitle">Data Science • Machine Learning • Data Analysis • Web Development • Networking</p>
+          <div class="cta">
+            <a class="btn primary" href="#contact">Hire Me</a>
+            <a class="btn outline" href="assets/Mubtasim_Fuad_Opee_Resume.pdf" download>Download Resume</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/Opee99" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/mubtasimfuadopee" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.kaggle.com/code/mubtasimfuadopee" target="_blank" rel="noreferrer">Kaggle</a>
+            <a href="https://mfopee.netlify.app/" target="_blank" rel="noreferrer">Website</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="avatar" aria-label="Profile illustration">MFO</div>
+          <ul class="highlights">
+            <li><strong>CCNA</strong> Certified</li>
+            <li>Power BI &amp; DAX</li>
+            <li>TensorFlow • Keras</li>
+          </ul>
+        </div>
+      </div>
+      <a href="#about" class="scroll-down" aria-label="Scroll to About">↓</a>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container grid-2">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            Results-driven CSE graduate with hands-on experience in Python, C/C++, machine learning, and data science.
+            Trained in data analysis with strong skills in Power BI and business intelligence. CCNA certified with solid
+            understanding of network security and infrastructure. Currently pursuing M.Sc. in CSE at Jahangirnagar University.
+          </p>
+          <div class="edu">
+            <div class="edu-item">
+              <h3>M.Sc. in CSE — Jahangirnagar University</h3>
+              <p>CGPA: 3.66 • May 2024 – Running</p>
+            </div>
+            <div class="edu-item">
+              <h3>B.Sc. in CSE — Daffodil International University</h3>
+              <p>CGPA: 3.66 • Jan 2020 – Mar 2024</p>
+            </div>
+          </div>
+          <a class="btn inline" href="#skills">Explore Skills →</a>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <span class="num" data-target="30">0</span><span class="suffix">+</span>
+            <span class="label">ML/DS Notebooks</span>
+          </div>
+          <div class="stat">
+            <span class="num" data-target="10">0</span><span class="suffix">+</span>
+            <span class="label">Dashboards &amp; Apps</span>
+          </div>
+          <div class="stat">
+            <span class="num" data-target="3">0</span><span class="suffix">+</span>
+            <span class="label">Years Coding</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <h2>Technical Skills</h2>
+        <div class="skill-filters">
+          <button class="chip active" data-skill-filter="all">All</button>
+          <button class="chip" data-skill-filter="ml">ML &amp; Data</button>
+          <button class="chip" data-skill-filter="bi">Power BI</button>
+          <button class="chip" data-skill-filter="web">Web Dev</button>
+          <button class="chip" data-skill-filter="net">Networking</button>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card" data-category="ml">
+            <h3>Python</h3>
+            <div class="bar" data-level="90"><span></span></div>
+            <p>NumPy, Pandas, scikit-learn</p>
+          </div>
+          <div class="skill-card" data-category="ml">
+            <h3>Deep Learning</h3>
+            <div class="bar" data-level="80"><span></span></div>
+            <p>TensorFlow, Keras, OpenCV</p>
+          </div>
+          <div class="skill-card" data-category="bi">
+            <h3>Power BI &amp; DAX</h3>
+            <div class="bar" data-level="85"><span></span></div>
+            <p>Interactive dashboards & modelling</p>
+          </div>
+          <div class="skill-card" data-category="web">
+            <h3>Frontend</h3>
+            <div class="bar" data-level="75"><span></span></div>
+            <p>HTML, CSS, JavaScript</p>
+          </div>
+          <div class="skill-card" data-category="web">
+            <h3>Backend Basics</h3>
+            <div class="bar" data-level="50"><span></span></div>
+            <p>PHP (basic), REST principles</p>
+          </div>
+          <div class="skill-card" data-category="net">
+            <h3>Networking</h3>
+            <div class="bar" data-level="70"><span></span></div>
+            <p>CCNA • Routing, Switching, Security</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="header-row">
+          <h2>Projects</h2>
+          <div class="filters">
+            <button class="chip small active" data-filter="all">All</button>
+            <button class="chip small" data-filter="ml">ML</button>
+            <button class="chip small" data-filter="bi">BI</button>
+            <button class="chip small" data-filter="web">Web</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card" data-category="ml">
+            <div class="cover placeholder">Image</div>
+            <div class="content">
+              <h3>Smart Crop Recommendation (ANN + ML)</h3>
+              <p>Bangladesh-specific dataset (50k+ samples). Feature engineering, hyperparameter tuning, and comparisons across ML baselines.</p>
+              <div class="tags"><span>Python</span><span>Keras</span><span>Scikit-Learn</span></div>
+              <div class="actions">
+                <a class="btn small" href="https://www.kaggle.com/code/mubtasimfuadopee/bd-smart-crop-recommendation-system" target="_blank" rel="noreferrer">View Notebook</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="bi">
+            <div class="cover placeholder">Image</div>
+            <div class="content">
+              <h3>AdventureWorks Sales Dashboard</h3>
+              <p>Interactive Power BI dashboard with DAX measures, data modelling, and dynamic filtering to drive business insights.</p>
+              <div class="tags"><span>Power BI</span><span>DAX</span><span>Excel</span></div>
+              <div class="actions">
+                <a class="btn small" href="#" target="_blank" rel="noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web">
+            <div class="cover placeholder">Image</div>
+            <div class="content">
+              <h3>Cashopia — Personal Finance Web App</h3>
+              <p>Responsive app to track income, expenses, budgets with light/dark mode, localization, and Chart.js visualizations.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+              <div class="actions">
+                <a class="btn small" href="https://cashopia.netlify.app" target="_blank" rel="noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section alt" id="certs">
+      <div class="container">
+        <h2>Certifications & Training</h2>
+        <ul class="timeline">
+          <li>
+            <span class="dot"></span>
+            <div class="tl-card">
+              <h3>CCNA — BITM (Ongoing, 2025)</h3>
+              <p>Routing & Switching, Network Security, Infrastructure Configuration.</p>
+            </div>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <div class="tl-card">
+              <h3>Data Science & Analysis — Cryzotech (2025, Ongoing)</h3>
+              <p>End-to-end data wrangling, model building, and evaluation.</p>
+            </div>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <div class="tl-card">
+              <h3>Real-World DS & ML Projects — Udemy (2024)</h3>
+              <p>Hands-on projects with Python, scikit-learn, and deployment basics.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <h2>Co-curricular & Achievements</h2>
+        <div class="chips-wrap">
+          <span class="chip">ICPC & DIU-CPC contests</span>
+          <span class="chip">Scout leader — national & district</span>
+          <span class="chip">Awards in drawing</span>
+          <span class="chip">School cricket captain</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section alt" id="contact">
+      <div class="container grid-2">
+        <div>
+          <h2>Contact</h2>
+          <p>Based in Shyamoli, Dhaka — open to remote and onsite opportunities.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:mubtasimfuad99@gmail.com">mubtasimfuad99@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+8801910863078">+88 01910-863078</a>, <a href="tel:+8801622120029">+88 01622-120029</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/Opee99" target="_blank" rel="noreferrer">Opee99</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/mubtasimfuadopee" target="_blank" rel="noreferrer">/in/mubtasimfuadopee</a></li>
+            <li><strong>Address:</strong> 176/A/1, Shyamoli, Dhaka-1207</li>
+          </ul>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required/>
+            <small class="error">Name is required</small>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required/>
+            <small class="error">Provide a valid email</small>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+            <small class="error">Message is required</small>
+          </div>
+          <button class="btn primary full" type="submit">Send Message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Mubtasim Fuad Opee. All rights reserved.</p>
+      <div class="socials">
+        <a href="https://github.com/Opee99" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/mubtasimfuadopee" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://mfopee.netlify.app/" target="_blank" rel="noreferrer">Website</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
